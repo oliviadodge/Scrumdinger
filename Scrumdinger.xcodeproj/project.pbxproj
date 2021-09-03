@@ -13,6 +13,8 @@
 		2691B96726DAFFD100507FEA /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B96626DAFFD100507FEA /* MeetingView.swift */; };
 		2691B96926DAFFD200507FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2691B96826DAFFD200507FEA /* Assets.xcassets */; };
 		2691B96C26DAFFD200507FEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2691B96B26DAFFD200507FEA /* Preview Assets.xcassets */; };
+		2696D12B26E1E36C00967C2B /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D12A26E1E36C00967C2B /* ScrumsView.swift */; };
+		2696D12D26E1EBBF00967C2B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696D12C26E1EBBF00967C2B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2691B96826DAFFD200507FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2691B96B26DAFFD200507FEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2691B96D26DAFFD200507FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2696D12A26E1E36C00967C2B /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		2696D12C26E1EBBF00967C2B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2691B96A26DAFFD200507FEA /* Preview Content */,
 				267CF3B826E0A62900330A2C /* DailyScrum.swift */,
 				267CF3BB26E0A74900330A2C /* CardView.swift */,
+				2696D12A26E1E36C00967C2B /* ScrumsView.swift */,
+				2696D12C26E1EBBF00967C2B /* DetailView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2691B96726DAFFD100507FEA /* MeetingView.swift in Sources */,
+				2696D12D26E1EBBF00967C2B /* DetailView.swift in Sources */,
 				267CF3B926E0A62900330A2C /* DailyScrum.swift in Sources */,
 				267CF3BC26E0A74900330A2C /* CardView.swift in Sources */,
+				2696D12B26E1E36C00967C2B /* ScrumsView.swift in Sources */,
 				2691B96526DAFFD100507FEA /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
